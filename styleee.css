@@ -1,0 +1,755 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000000;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    max-width: 1200px;
+    padding: 20px 0;
+}
+
+.local{
+    width: 192px;
+    height: 36px;
+}
+
+.like{
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links{
+    display: flex;
+    gap: 50px;
+}
+
+.local-face{
+    display: flex;
+    align-items: center;
+    gap: 180px;
+}
+
+.local-face a{
+    font-size: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.search{
+    width: 32px;
+    height: 32px;
+}
+
+.eloxirr{
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-top: 45px;
+}
+
+.step{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    color: white;
+}
+
+.step-left img{
+    width: 532px;
+    height: 806px;
+}
+
+.step-right{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.step-right h3{
+    font-size: 40px;
+}
+
+.step-right p{
+    font-size: 16px;
+    width: 500px;
+}
+
+.step-right a{
+    width: 192px;
+    height: 36px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.ozg-semz{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    color: white;
+}
+
+.semmm{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 20px;
+    width: 90px;
+}
+
+.semmm img{
+    width: 90px;
+    height: 125px;
+}
+
+.semmm p{
+    font-size: 16px;
+}
+
+.qoppp{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 20px;
+}
+
+.qoppp img{
+    width: 88px;
+    height: 125px;
+}
+
+.qoppp p{
+    font-size: 16px;
+}
+
+.dollar{
+    font-size: 24px;
+    color: #AB572D;
+}
+
+.nechta{
+    display: flex;
+    width: 391px;
+    gap: 25px;
+}
+
+.birbir{
+    border: 2px solid white;
+    border-radius: 12px;
+    text-align: center;
+    padding: 8px 10px;
+    left: 10px;
+}
+
+.bagbag a{
+    width: 381px;
+    height: 48px;
+    border: 1px solid white;
+    color: #AB572D;
+    background: #D9D9D9;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.logo{
+    display: flex;
+    gap: 15px;
+}
+
+.logo img{
+    width: 87px;
+    height: 25px;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: white;
+}
+
+.details h2{
+    font-size: 32px;
+    margin-top: 70px;
+    margin-bottom: 25px;
+}
+
+.details p{
+    font-size: 20px;
+    width: 1140px;
+}
+
+.golden{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: white;
+}
+
+.golden h2{
+    font-size: 32px;
+    margin-top: 70px;
+    margin-bottom: 25px;
+}
+
+.golden p{
+    font-size: 20px;
+    width: 1140px;
+}
+
+.notes h2{
+    font-size: 32px;
+    color: white;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.toppp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topp{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 335px;
+    text-align: center;
+    align-items: center;
+}
+
+.topp h3{
+    font-size: 24px;
+    color: white;
+}
+
+.topp p{
+    font-size: 24px;
+    color: white;
+}
+
+.topp img{
+    width: 230px;
+    height: 230px;
+    margin-top: 25px;
+}
+
+.theoff{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: white;
+}
+
+.theoff h2{
+    font-size: 32px;
+    margin-top: 70px;
+    margin-bottom: 25px;
+}
+
+.theoff p{
+    font-size: 20px;
+    width: 1140px;
+}
+
+.ultimate{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: white;
+}
+
+.ultimate h2{
+    font-size: 32px;
+    margin-top: 150px;
+    margin-bottom: 25px;
+}
+
+.ultimate p{
+    font-size: 20px;
+    width: 1140px;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reviews h2{
+    font-size: 50px;
+    color: #AB572D;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.riverr{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 751px;
+    color: white;
+}
+
+.river-left img{
+    width: 309px;
+}
+
+.river-right{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.river-right img{
+    width: 180px;
+}
+
+.river-right h3{
+    font-size: 24px;
+}
+
+.river-right p{
+    font-size: 16px;
+}
+
+.riviss{
+    display: flex;
+    gap: 50px;
+}
+
+.jacksmiz{
+    display: flex;
+    gap: 15px;
+    margin-top: 100px;
+}
+
+.smiz-left img{
+    width: 52px;
+    height: 52px;
+}
+
+.smiz-right img{
+    width: 131px;
+}
+
+.lovely{
+    width: 945px;
+    color: white;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.juneoc{
+    display: flex;
+    gap: 40px;
+    color: white;
+}
+
+.yolgza{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.more-more{
+    width: 213px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.head-atirlar{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.head-product{
+    margin-top: 80px;
+    color: white;
+}
+
+.head-product h2{
+    font-size: 50px;
+    color: #AB572D;
+    margin-bottom: 55px;
+    text-align: center;
+}
+
+.narxi{
+    font-size: 16px;
+    color: #AB572D;
+}
+
+.atir{
+    width: 260px;
+    height: 442px;
+    background: #1d1d1d;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.narh-gr{
+    display: flex;
+    gap: 20px;
+    padding: 0 70px;
+}
+
+
+.atir img{
+    width: 250px;
+    height: 359px;
+}
+
+.atir h3{
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.face-end{
+    margin-top: 120px;
+    margin-bottom: 30px;
+    color: white;
+    display: flex;
+}
+
+.fragm{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.fragm img{
+    width: 375px;
+    height: 375px;
+    margin-bottom: 25px;
+}
+
+.fragm h3{
+    width: 364px;
+    font-size: 20px;
+}
+
+.fragm p{
+    width: 371px;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.fragm a{
+    width: 141px;
+    height: 36px;
+    border: 1px solid white;
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 10px 10px;
+    text-align: center;
+}
+
+.localll{
+    font-size: 36px;
+    color: #AB572D;
+}
+
+.submit{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+.submit h2{
+    font-size: 24px;
+    color: white;
+}
+
+.submit p{
+    font-size: 16px;
+    color: white;
+    width: 280px;
+}
+
+.submittt{
+    display: flex;
+}
+
+.submittt input{
+    width: 210px;
+    height: 36px;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 10px;
+    background: rgb(102, 93, 93);
+    color: white;
+}
+
+.submittt button{
+    width: 100px;
+    height: 36px;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 10px;
+    background: #AB572D;
+    color: white;
+    margin-left: 20px;
+}
+
+.internet img{
+    width: 32px;
+    height: 32px;
+}
+
+.righttt{
+    display: flex;
+    gap: 100px;
+    margin-top: 40px;
+    padding: 0 50px;
+}
+
+.Categories{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.Shopping{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.Customer{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.Pages{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+@media (max-width:1200px){
+
+    .container{
+        padding: 20px;
+    }
+
+    .details p,
+    .golden p,
+    .theoff p,
+    .ultimate p{
+        width: 100%;
+    }
+
+    .lovely{
+        width: 100%;
+    }
+
+    .step-left img{
+        width: 100%;
+        height: auto;
+    }
+
+    .topp img{
+        width: 180px;
+        height: auto;
+    }
+}
+
+@media (max-width:992px){
+
+    .local-face{
+        gap: 40px;
+        justify-content: space-between;
+    }
+
+    .step{
+        flex-direction: column;
+        text-align: center;
+        gap: 40px;
+    }
+
+    .step-right p{
+        width: 100%;
+    }
+
+    .nechta{
+        width: 100%;
+        justify-content: center;
+    }
+
+    .bagbag a{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .toppp{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .riverr{
+        width: 100%;
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+
+    .jacksmiz{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .face-end{
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .righttt{
+        flex-wrap: wrap;
+        gap: 40px;
+        padding: 0;
+    }
+
+    .head-atirlar{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media (max-width:768px){
+
+    .nav-links{
+        display: none;
+    }
+
+    .search{
+        width: 24px;
+        height: 24px;
+    }
+
+    .step-right h3{
+        font-size: 28px;
+    }
+
+    .details h2,
+    .golden h2,
+    .theoff h2,
+    .ultimate h2{
+        font-size: 24px;
+    }
+
+    .topp{
+        width: 100%;
+    }
+
+    .reviews h2{
+        font-size: 32px;
+    }
+
+    .atir{
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .narh-gr{
+        padding: 0;
+        justify-content: center;
+    }
+}
+
+@media (max-width:480px){
+
+    .local{
+        width: 140px;
+        height: auto;
+    }
+
+    .eloxirr{
+        font-size: 14px;
+    }
+
+    .step-right h3{
+        font-size: 22px;
+    }
+
+    .step-right p{
+        font-size: 14px;
+    }
+
+    .topp p{
+        font-size: 16px;
+    }
+
+    .lovely{
+        font-size: 14px;
+    }
+
+    .submittt{
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .submittt input,
+    .submittt button{
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+@media (max-width:320px){
+
+    .step-right h3{
+        font-size: 20px;
+    }
+
+    .reviews h2{
+        font-size: 26px;
+    }
+
+    .righttt{
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .nechta{
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+}

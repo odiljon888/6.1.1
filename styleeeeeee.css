@@ -1,0 +1,453 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000000;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    max-width: 1200px;
+    padding: 20px 0;
+}
+
+.local{
+    width: 192px;
+    height: 36px;
+}
+
+.like{
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links{
+    display: flex;
+    gap: 50px;
+}
+
+.local-face{
+    display: flex;
+    align-items: center;
+    gap: 180px;
+}
+
+.local-face a{
+    font-size: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.search{
+    width: 32px;
+    height: 32px;
+}
+
+.eloxirr{
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-top: 45px;
+}
+
+.june5{
+    height: 1010px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.june5 p{
+    font-size: 20px;
+    color: white;
+}
+
+.june5 h2{
+    font-size: 50px;
+    width: 1100px;
+}
+
+.june5 img{
+    width: 1200px;
+    height: 620px;
+}
+
+.overty{
+    width: 1200px;
+    height: 260px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.overty p{
+    font-size: 20px;
+}
+
+.overty h3{
+    font-size: 25px;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.discovering{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.discover-left img{
+    width: 500px;
+    height: 500px;
+}
+
+.discover-right{
+    width: 651px;
+    height: 469px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.discover-right h3{
+    font-size: 25px;
+    color: white;
+}
+
+.discover-right p{
+    font-size: 20px;
+    color: white;
+    width: 630px;
+}
+
+.happy{
+    margin-top: 70px;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.next-post{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    margin-top: 100px;
+}
+
+.imagee img{
+    width: 36px;
+    height: 36px;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.face-end{
+    margin-top: 60px;
+    margin-bottom: 30px;
+    color: white;
+    display: flex;
+}
+
+.fragm{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.fragm img{
+    width: 375px;
+    height: 375px;
+    margin-bottom: 25px;
+}
+
+.fragm h3{
+    width: 364px;
+    font-size: 20px;
+}
+
+.fragm p{
+    width: 371px;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.fragm a{
+    width: 141px;
+    height: 36px;
+    border: 1px solid white;
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 10px 10px;
+    text-align: center;
+}
+
+.localll{
+    font-size: 36px;
+    color: #AB572D;
+}
+
+.submit{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+.submit h2{
+    font-size: 24px;
+    color: white;
+}
+
+.submit p{
+    font-size: 16px;
+    color: white;
+    width: 280px;
+}
+
+.submittt{
+    display: flex;
+}
+
+.submittt input{
+    width: 210px;
+    height: 36px;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 10px;
+    background: rgb(102, 93, 93);
+    color: white;
+}
+
+.submittt button{
+    width: 100px;
+    height: 36px;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 10px;
+    background: #AB572D;
+    color: white;
+    margin-left: 20px;
+}
+
+.internet img{
+    width: 32px;
+    height: 32px;
+}
+
+.righttt{
+    display: flex;
+    gap: 100px;
+    margin-top: 40px;
+    padding: 0 50px;
+}
+
+.Categories{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.Shopping{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.Customer{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.Pages{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+@media (max-width:1200px){
+
+.container{
+    padding: 20px;
+}
+
+.june5 h2{
+    width: 100%;
+}
+
+.june5 img{
+    width: 100%;
+    height: auto;
+}
+
+.overty{
+    width: 100%;
+    height: auto;
+}
+
+.discover-right{
+    width: 100%;
+    height: auto;
+}
+
+.discover-right p{
+    width: 100%;
+}
+
+}
+
+@media (max-width:992px){
+
+.local-face{
+    gap: 60px;
+    justify-content: space-between;
+}
+
+.discovering{
+    flex-direction: column;
+    gap: 50px;
+}
+
+.discover-left img{
+    width: 100%;
+    height: auto;
+}
+
+.discover-right{
+    text-align: center;
+    gap: 20px;
+}
+
+.june5{
+    height: auto;
+    gap: 40px;
+}
+
+.june5 h2{
+    font-size: 36px;
+}
+
+.face-end{
+    flex-direction: column;
+    gap: 60px;
+}
+
+.righttt{
+    flex-wrap: wrap;
+    gap: 60px;
+    padding: 0;
+}
+
+}
+
+@media (max-width:768px){
+
+.nav-links{
+    display: none;
+}
+
+.like{
+    gap: 15px;
+}
+
+.search{
+    width: 24px;
+    height: 24px;
+}
+
+.eloxirr{
+    font-size: 14px;
+}
+
+.june5 h2{
+    font-size: 28px;
+}
+
+.overty p,
+.discover-right p,
+.happy{
+    font-size: 16px;
+}
+
+.next-post{
+    flex-direction: column;
+    gap: 20px;
+}
+
+.submittt{
+    flex-direction: column;
+    gap: 15px;
+}
+
+.submittt input,
+.submittt button{
+    width: 100%;
+    margin-left: 0;
+}
+
+}
+
+@media (max-width:480px){
+
+.local{
+    width: 140px;
+    height: auto;
+}
+
+.june5 h2{
+    font-size: 22px;
+}
+
+.discover-right h3,
+.overty h3{
+    font-size: 20px;
+}
+
+.localll{
+    font-size: 28px;
+}
+
+.righttt{
+    flex-direction: column;
+    gap: 30px;
+}
+
+}
+
+@media (max-width:320px){
+
+.june5 h2{
+    font-size: 18px;
+}
+
+.eloxirr{
+    font-size: 12px;
+}
+
+}
